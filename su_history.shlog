@@ -1,0 +1,127 @@
+    1  nano /etc/network/interfaces
+    2  hostname
+    3  nano /etc/hostname 
+    4  nano /etc/network/interfaces
+    5  reboot
+    6  nano /etc/mailname
+    7  hostname
+    8  nano /etc/hosts.conf
+    9  ping srv34
+   10  nano /etc/hosts
+   11  ping iurt34.fr
+   12  ping iutrt34.fr
+   13  vi /etc/resolv.conf 
+   14  nano /etc/resolv.conf 
+   15  nano /etc/resolv.conf 
+   16  cd /etc
+   17  ls
+   18  cd bind
+   19  ls
+   20  nano named.conf.local 
+   21  touch /etc/bind/db.iutrt34.fr
+   22  nano /etc/bind/db.iutrt34.fr
+   23  nano /etc/bind/db.iutrt34.fr
+   24  nano named.conf.local 
+   25  nano /etc/bind/db.iutrt34.fr
+   26  nano /etc/bind/db.iutrt34.fr
+   27  nano /etc/bind/db.iutrt34.fr
+   28  ifdown eth0
+   29  nano /etc/network/interfaces
+   30  ifup eth0
+   31  nano /etc/hostname 
+   32  nano /etc/mailname
+   33  nano /etc/hosts.conf
+   34  nano /etc/bind/db.iutrt34.fr
+   35  nano /etc/resolv.conf
+   36  nano /etc/mailname
+   37  rm /etc/milname
+   38  rm /etc/malname
+   39  rm /etc/mailname
+   40  history  | grep nano
+   41  history  |sort | grep nano| uniq
+   42  ifdown eth0
+   43  nano /etc/network/interfaces
+   44  nano /etc/hosts
+   45  nano /etc/hosts
+   46  nano /etc/hostname 
+   47  history  |sort | grep nano| sort| uniq
+   48  nano /etc/bind/db.iutrt34.fr
+   49  nano named.conf.local 
+   50  reboot
+   51  ip a
+   52  /etc/init.d/bind9 restart
+   53  tail -n 40 /var/log/syslog
+   54  ping linserveur
+   55  ping iutrt1.fr
+   56  nano /etc/hosts
+   57  nano /etc/resolv.conf 
+   58  ping 8.8.8.8
+   59  /etc/init.d/bind9 restart
+   60  ping 8.8.8.8
+   61  ping 8.8.8.8
+   62  traceroute 8.8.8.8
+   63  ping 8.8.8.8
+   64  nano /etc/resolv.conf 
+   65  ping 8.8.8.8
+   66  /etc/hosts
+   67  nano /etc/hosts
+   68  reboot
+   69  nslookup srv3
+   70  rebooy
+   71  reboot
+   72  nano /etc/resolv?.conf
+   73  nano /etc/resolv.conf
+   74  ifdown eth0
+   75  nano /etc/network/interfaces
+   76  ifup eth0
+   77  nano /etc/resolv.conf
+   78  nano /etc/resolv.conf 
+   79  ip a
+   80  ping srv3
+   81  nano /etc/hosts
+   82  ping srv3
+   83  nano /etc/network/interfaces
+   84  nano /etc/resolv.conf 
+   85  nslookup linserveur.iutrt3.fr
+   86  su
+   87  dhclient -v eth0
+   88  apt-get install -y icedove
+   89  apt-get install -y gnome-core
+   90  reboot
+   91  dpkg-reconfigure icedove
+   92  dpkg-reconfigure thunderbird
+   93  cd /etc/bind
+   94  cd ..
+   95  cd bind
+   96  mkdir -p /home/etudiant/bind
+   97  cp * /home/etudiant/bind/
+   98  cat /etc/host
+   99  cat /etc/hosts
+  100  cat /etc/hosts > /home/etudiant/hosts
+  101  cat /etc/hostname > /home/etudiant/hostname
+  102  cat /etc/resolv.conf > /home/etudiant/resolv.conf
+  103  cat /etc/network/interfaces > /home/etudiant/network_interfaces
+  104  ls
+  105  mkdir /home/etudiant/postfix
+  106  cp /etc/postfix/main.cf /home/etudiant/postfix/
+  107  ls /etc/
+  108  ls /etc/ | grep post
+  109  service postfix
+  110  systemctl status postfix
+  111  ls /etc/courrier
+  112  cd /home/etudiant/
+  113  ls
+  114  ls
+  115  cd bind/
+  116  ls
+  117  chmod 777 *
+  118  cd ..
+  119  ls
+  120  ls -ltr
+  121  mkdir root
+  122  mv hosts hostname resolv.conf network_interfaces root
+  123  cd root
+  124  chmod 777 *
+  125  exit
+  126  history
+  127  history > su_history.shlog
