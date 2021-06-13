@@ -1,0 +1,26 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> linserveur.iutrt1.fr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36011
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;linserveur.iutrt1.fr.		IN	A
+
+;; ANSWER SECTION:
+linserveur.iutrt1.fr.	3600	IN	A	192.168.1.10
+
+;; AUTHORITY SECTION:
+iutrt1.fr.		3600	IN	NS	srv1.iutrt1.fr.
+
+;; ADDITIONAL SECTION:
+srv1.iutrt1.fr.		3600	IN	A	192.168.1.1
+
+;; Query time: 1 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Nov 17 10:36:04 CET 2020
+;; MSG SIZE  rcvd: 100
+

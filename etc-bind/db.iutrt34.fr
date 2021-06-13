@@ -1,0 +1,18 @@
+$ORIGIN iutrt.fr.
+
+
+@	IN	SOA	srv34.iutrt.fr.	root.iutrt34.fr. (
+		 2020110201 ;
+		1200
+		180
+		1209600
+		3600)
+@	IN	NS srv34.iutrt34.fr.
+
+@	IN	MX 10	srv34.iutrt34.fr.
+
+srv1	IN	A	192.168.1.1
+
+linserveur	IN	A	192.168.34.10
+
+winstation	IN	A	192.168.34.20

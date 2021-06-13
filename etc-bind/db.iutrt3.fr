@@ -1,0 +1,15 @@
+$Origin
+@ IN SOA srv3.iutrt3.fr root.iutrt3.fr (
+2020111601;
+1200
+180
+1209600
+3600) 
+@ IN NS srv3.iutrt3.fr.
+@ IN MX 10 srv3.iutrt3.fr.
+sr3 IN A 192.168.3.1
+linserveur IN A 192.168.3.10
+winstation IN A 192.168.3.20 
+DNS IN CNAME srv3
+mail IN CNAME srv3
+www IN CNAME linserveur
